@@ -6,6 +6,7 @@ This work is a follow-up research on our previous publication, <a href="https://
 * The transfer learning was leveraged to initialize the model with the optimized weights obtained from pre-training on ImageNET
 * Backbone was frozen and fine-tuning was leveraged to continue training and updating the weights on the decoder path (fine-tuned on the training dataset)
 * Batch normalization was applied to the output of the activation function in every layer, before passing it to the next layer, to ensure improved performance and stability of the model during training.
+* relu activations were used in the layers except in the output layer whose activation was chosen as sigmoid, whcih is suitable for binary classification 
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/architecture.PNG)
 Fig. 1: Modified unet architecture 
