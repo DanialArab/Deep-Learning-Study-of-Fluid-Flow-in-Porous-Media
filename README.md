@@ -6,3 +6,5 @@ This work is a follow-up research on our previous publication, <a href="https://
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/deep_learning_vs_rf.PNG)
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/prediction_unet.PNG)
+
+![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/confusion%20table.png)
