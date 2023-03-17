@@ -1,6 +1,6 @@
 # Deep-Learning-Study-of-Fluid-Flow-in-Porous-Media
 
-This work is a follow-up research on our previous publication, <a href="https://github.com/DanialArab/Random-Forest-Classifier-to-Characterize-Emulsions/" target="_blank" rel="noopener">link to its repo</a>. In this work, deep learning approach (modified unet) was applied to perform the semantic segmentation of microfluidic chips (please visit <a href="https://www.sciencedirect.com/science/article/abs/pii/S0920410522007045?via%3Dihub/" target="_blank" rel="noopener">here</a> for further details on the technical/non-ML parts). The model architecture is depicted in Fig. 1. The following bullet points are briefly summarized the architecture details:
+This work is a follow-up research on our previous publication, <a href="https://github.com/DanialArab/Random-Forest-Classifier-to-Characterize-Emulsions/" target="_blank" rel="noopener">link to its repo</a>. In this work, deep learning approach (modified unet) was applied to perform the semantic segmentation of microfluidic chips (please visit <a href="https://www.sciencedirect.com/science/article/abs/pii/S0920410522007045?via%3Dihub/" target="_blank" rel="noopener">here</a> for further details on the technical/non-ML parts). The model architecture is depicted in Fig. 1. The following bullet points briefly summarize the architecture details:
 
 * VGG16 was used as the backbone to extract the features (i.e., in the encoder part of the unet, as depicted in Fig. 1)
 * The transfer learning was leveraged to initialize the model with the optimized weights obtained from pre-training on ImageNET
@@ -8,6 +8,7 @@ This work is a follow-up research on our previous publication, <a href="https://
 * Batch normalization was applied to the output of the activation function in every layer, before passing it to the next layer, to ensure improved performance and stability of the model during training.
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/architecture.PNG)
+Fig. 1: Modified unet architecture 
 
 The segmentation result for one of the testing images is shown in Fig. 2. As shown, the undet model segmentation is precisely comparable with the ground truth, presented in the middle. Also, very tiny oil droplets, marked in the red circles in Fig. 2, are segmented well. 
 
