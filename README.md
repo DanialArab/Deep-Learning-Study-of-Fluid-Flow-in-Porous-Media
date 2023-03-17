@@ -16,10 +16,9 @@ The segmentation result for one of the testing images is shown in Fig. 2. As sho
 
 Fig. 2: Modified unet result: left) original image, middle) ground truth, and right) modified unet prediction 
 
-This approach is specifically useful when there is a high interaction between the injected chemical and the resident fluid. In these cases, there could be a high chance of complex emulsification (where there is not a sharp interface between the emulsified phase and the continuous phase, see red rectangle in Fig. 3). In these cases, traditional ML algorithms may not be the best option for semantic segmentation: random forest is overestimated the oil saturation in the red rectangle. However, the segmentation accuracy is remarkably improved and the oil saturation in the same region in the same image (marked in the red rectangle) is precisely segmented. The intersection over union obtained for the testing datasets is averaged to ~97%.
+This approach is specifically useful when there is a high interaction between the injected chemical and the resident fluid. In these cases, there could be a high chance of complex emulsification (where there is not a sharp interface between the emulsified phase and the continuous phase, see red rectangle in Fig. 3). In these cases, traditional ML algorithms may not be the best option for semantic segmentation: random forest is overestimated the oil saturation in the red rectangle. However, the segmentation accuracy of modified unet model is remarkably improved and the oil saturation in the same region in the same image (marked in the red rectangle) is precisely segmented out. The intersection over union obtained for the testing datasets is averaged to ~97%.
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/deep_learning_vs_rf.PNG)
-
 Fig. 3: Comparison of traditional ML (random forest classifier) with modified unet classifier 
 
 The confusion table containing information for all the testing images dataset is shown in Fig. 4. As shown, true positive prediction is around 98.5%, which is remarkably accurate. Also, the average precision, recall, and f1-score are 0.978, 0.976, 0.977, respectively. 
