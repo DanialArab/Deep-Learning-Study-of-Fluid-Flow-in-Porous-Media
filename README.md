@@ -24,4 +24,5 @@ Fig. 3: Comparison of traditional ML (random forest classifier) with modified un
 The confusion table containing information for all the testing images dataset is shown in Fig. 4. As shown, true positive prediction is around 98.5%, which is remarkably accurate. Also, the average precision, recall, and f1-score are 0.978, 0.976, 0.977, respectively. All the steps of the machine learning pipeline are detailed in the jupyter notebook attached to this repo.  
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/confusion%20table.png)
+
 Fig. 4: Confusion table summarizing the accuracy of the modified unet model 
