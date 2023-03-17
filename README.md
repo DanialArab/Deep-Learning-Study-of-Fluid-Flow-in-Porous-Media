@@ -10,7 +10,7 @@ This work is a follow-up research on our previous publication, <a href="https://
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/architecture.PNG)
 Fig. 1: Modified unet architecture 
 
-The segmentation result for one of the testing images is shown in Fig. 2. As shown, the undet model segmentation is precisely comparable with the ground truth, presented in the middle. Also, very tiny oil droplets, marked in the red circles in Fig. 2, are segmented well. 
+The segmentation result for one of the testing images is shown in Fig. 2. As shown, the modified unet segmentation is precisely comparable with the ground truth, presented in the middle. Also, very tiny oil droplets, marked in the red circles in Fig. 2, are segmented well. 
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/prediction_unet.PNG)
 
