@@ -21,12 +21,7 @@ This approach is specifically useful when there is a high interaction between th
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/deep_learning_vs_rf.PNG)
 Fig. 3: Comparison of traditional ML (random forest classifier) with modified unet classifier 
 
-The confusion table containing information for all the testing images dataset is shown in Fig. 4. As shown, true positive prediction is around 98.5%, which is remarkably accurate. Also, the average precision, recall, and f1-score are 0.978, 0.976, 0.977, respectively. 
-
-![image](https://user-images.githubusercontent.com/54812742/225813367-5a72ae29-57f4-46d5-81d0-076c215bf7f0.png)
-
-
-All the steps of the machine learning pipeline are detailed in the jupyter notebook attached to this repo.  
-
+The confusion table containing information for all the testing images dataset is shown in Fig. 4. As shown, true positive prediction is around 98.5%, which is remarkably accurate. Also, the average precision, recall, and f1-score are 0.978, 0.976, 0.977, respectively. All the steps of the machine learning pipeline are detailed in the jupyter notebook attached to this repo.  
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/confusion%20table.png)
+Fig. 4: Confusion table summarizing the accuracy of the modified unet model 
