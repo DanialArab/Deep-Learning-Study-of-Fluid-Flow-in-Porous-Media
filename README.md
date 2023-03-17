@@ -4,7 +4,7 @@ This work is a follow-up research on our previous publication, <a href="https://
 
 * VGG16 was used as the backbone to extract the features (i.e., in the encoder part of the unet, as depicted in Fig. 1)
 * The transfer learning was leveraged to initialize the model with the optimized weights obtained from pre-training on ImageNET
-* Backbone was frozen and fine-tuning was leveraged to continue continue training and updating the weights on the decoder path (fine-tuned on the training dataset)
+* Backbone was frozen and fine-tuning was leveraged to continue training and updating the weights on the decoder path (fine-tuned on the training dataset)
 * Batch normalization was applied to the output of the activation function in every layer, before passing it to the next layer, to ensure improved performance and stability of the model during training.
 
 ![](https://raw.githubusercontent.com/DanialArab/images/main/my_papers/architecture.PNG)
